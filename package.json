@@ -3,11 +3,6 @@
   "version": "1.0.0",
   "description": "Vercel Serverless Proxy for Twitch Misskey Timeline Extension",
   "main": "api/misskey/[...endpoint].js",
-  "scripts": {
-    "dev": "vercel dev",
-    "build": "vercel build",
-    "deploy": "vercel"
-  },
   "dependencies": {
     "node-fetch": "^2.7.0"
   },
